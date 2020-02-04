@@ -1,0 +1,89 @@
+body{ 
+	font: 14px sans-serif; text-align: center; 
+	background-color: bisque;
+	color: white
+}
+.heading{
+	background-color: rgb(95, 78, 78);
+	padding:5px 0px 5px;
+
+}
+
+h2{ 
+    font: sans-serif;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 3px; 
+	padding: 10px;
+	background: rgb(43, 124, 245);
+	border: 1px solid rgb(37, 196, 218);
+}
+form p {
+	color: rgb(226, 51, 21);
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	color: black;
+	border: 1px solid rgb(37, 196, 218);
+}
+.add_btn {
+	height: 39px;
+	background: rgb(5, 216, 75);
+	color: 	rgb(225, 227, 233);
+	border: 2px solid rgb(15, 124, 196);
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+	border-color: #d43f3a;
+	margin-left: 1167px;
+}
+    
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {    
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: rgb(16, 70, 133);
+}
+
+th, td{
+	border: none;
+    height: 30px;
+	padding: 2px;
+	
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.id, .task, .start_date, .fin_date {
+	text-align: left;
+	color: black
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
